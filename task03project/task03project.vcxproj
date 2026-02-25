@@ -19,19 +19,13 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\task01project\logic.cpp" />
-    <ClCompile Include="..\task01project\util.cpp" />
     <ClCompile Include="main.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\task01project\logic.h" />
-    <ClInclude Include="..\task01project\util.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{9d3c6ed9-5361-4ee9-967c-039245b8a40a}</ProjectGuid>
-    <RootNamespace>task02project</RootNamespace>
+    <ProjectGuid>{b25fd3b4-89eb-47c9-b0f3-e25bc4f3dde1}</ProjectGuid>
+    <RootNamespace>task03project</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />

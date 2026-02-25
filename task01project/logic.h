@@ -1,9 +1,11 @@
+
 #pragma once
 #include <iostream>
 #include <string>
+#include "util.h"
 
-#define SIZE 100
+#define SIZE 20
 
 using namespace std;
 
-int count_non_zero_elements(int array[SIZE], int length);
+int count_elements_great_num(int array[SIZE], int length, int num);
