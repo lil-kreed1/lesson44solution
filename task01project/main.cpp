@@ -10,10 +10,13 @@ int main() {
 		cin >> size;
 	} while (size <= 0);
 
-	init_rnd(array, size, 0, 100);
+	init_rnd(array, size, 0, 10);
 
 	print("array:\n");
 	print(convert(array, size));
+
+	print("count of non elements is ");
+	print(to_string(count_non_zero_elements(array, size)) + "\n");
 
 	return 0;
 }
